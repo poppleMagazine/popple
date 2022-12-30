@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    font-family: 'Poppins', sans-serif;
+}
+/* Photo by Rachel Claire: https://www.pexels.com/photo/person-sitting-on-carpet-while-reading-a-book-4846359/ */
+html,
+body{
+    height: 100%;
+}
+
+body{
+    /* background-color: #624F82; */
+    background-image: url(./png/indexBG2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    font-size: 10vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1{
+    color:  rgb(240, 234, 255);
+}
+
+h3{
+    font-size: 20px ;
+    padding-left: 3vw;
+    margin-left: 2vh;
+    color: aqua;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #20687f;
+    opacity: 60%;
+
+
+}
+.links a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.socialMedia{
+    display: contents;
+}
+
+.smLogo{
+    height: 2rem;
+    width: 2rem;
+}
+
+.welcome{
+    display: flex; 
+    align-items: center;
+    width: 90%;
+    height: 40vh;
+    padding-left: 3vw;
+    margin-left: 2vh;
+    font-size: 3vh;
+}
+
+.card{
+    height: 220px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.row{
+    height: 190px;
+    width: 150px;
+    background-color: white;
+    opacity: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.fotter{
+    height: 10%;
+    width: 100%;
+    /* display: flex; */
+    justify-content: space-around;
+    background-color: white;
+    opacity: 80%;
+    /* margin-bottom: 0px; */
+    /* position: absolute; */
+    bottom: 0px;
+}
+.tags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2vh;
+    
+}
+
+.articles{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.articles h2{
+    font-size: 50px;
+}
