@@ -101,7 +101,7 @@ nav{
     opacity: 80%;
     /* margin-bottom: 0px; */
     /* position: absolute; */
-    bottom: 0px;
+    /* bottom: 0px; */
 }
 .tags{
     display: flex;
