@@ -76,17 +76,23 @@ nav{
 .card{
     height: 220px;
     width: 100%;
+    background-color: aliceblue;
+    padding-left: 2%;
+    padding-top: 1%;
     /* background-color: black; */
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
     
 }
+.title{
+    color: black;
+}
 .row{
-    height: 190px;
-    width: 150px;
-    background-color: white;
-    opacity: 40%;
+    height: 149px;
+    width: 105px;
+    background-image: url(./png/jan23cover.png);
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     color: black;
