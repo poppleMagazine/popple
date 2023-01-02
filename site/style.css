@@ -132,3 +132,10 @@ nav{
 .articles h2{
     font-size: 50px;
 }
+
+
+.aboutContent{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
