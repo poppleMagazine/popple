@@ -88,10 +88,20 @@ nav{
 .title{
     color: black;
 }
-.row{
+.rowFeb{
     height: 149px;
     width: 105px;
     background-image: url(./png/feb23cover.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.rowJan{
+    height: 149px;
+    width: 105px;
+    background-image: url(./png/jan23cover.png);
     background-size: cover;
     display: flex;
     justify-content: space-around;
